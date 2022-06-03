@@ -17,11 +17,11 @@ PRODUCT_COPY_FILES += device/${_VENDORNAME_}/${_CODENAME_}/prebuilt/kernel:kerne
 # Fles under $(LOCAL_PATH)/recovery/root/ gets automatically copied into recovery
 # PRODUCT_COPY_FILES += $(LOCAL_PATH)/recovery/root/*:root/*
 
-PRODUCT_DEVICE := ${_CODENAME_}
-PRODUCT_NAME := omni_${_CODENAME_}
-PRODUCT_BRAND := ${_VENDORNAME_}
-PRODUCT_MODEL := ${_CODENAME_}
-PRODUCT_MANUFACTURER := ${_VENDORNAME_}
+PRODUCT_DEVICE := CPH2035
+PRODUCT_NAME := omni_CPH2035
+PRODUCT_BRAND := OPPO
+PRODUCT_MODEL := CPH2035
+PRODUCT_MANUFACTURER := OPPO
 
 # Forcefully add mtp support (adb is already there)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
